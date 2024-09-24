@@ -47,6 +47,7 @@ function App() {
           size="40"
           placeholder="Ingresa texto para el QR"
         />
+        
         <div className="button-container">
           <button onClick={handleGenerate}>Generar</button>
           {isGenerated && <button onClick={handleDownload}>Descargar</button>}

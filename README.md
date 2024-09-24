@@ -21,3 +21,4 @@ Este proyecto es una aplicación web que te permite generar códigos QR de forma
 - Opción para descargar el código QR generado.
 
 ¡Disfruta creando tus códigos QR!
+Visita [Mi portafolio de proyectos](https://portafolio-leyderl.netlify.app/) en tu navegador.

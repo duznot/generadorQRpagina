@@ -4,7 +4,7 @@ Este proyecto es una aplicación web que te permite generar códigos QR de forma
 
 ## Uso de la Aplicación
 
-1. **Accede a la aplicación**: Visita [Generador de Códigos QR](https://portafolio-leyderl.netlify.app/) en tu navegador.
+1. **Accede a la aplicación**: Visita [Generador de Códigos QR](https://duznot.github.io/generadorQRpagina/build) en tu navegador.
 
 2. **Ingresa el contenido**: Escribe el texto o enlace que deseas convertir en un código QR en el campo proporcionado.
 

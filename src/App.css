@@ -34,17 +34,15 @@
 }
 
 .titulo {
-  font-size: 2.5rem; /* Ajustar tamaño de fuente para que no sea demasiado grande */
+  font-size: 2.5rem; /* Tamaño de fuente ajustable */
   color: #333; /* Color del texto */
   font-family: Arial, sans-serif; /* Fuente */
   text-align: center; /* Centrar el texto */
   padding: 10px; /* Agregar padding para evitar que las letras estén pegadas al borde */
-  background-color: rgba(255, 255, 255, 0.8); /* Agregar fondo blanco para mayor legibilidad */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco para mayor legibilidad */
   border-radius: 12px; /* Bordes redondeados */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera para el título */
 }
-
-
 
 .image-container {
   width: 100%;
@@ -89,17 +87,8 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* From Uiverse.io by Praashoo7 */ 
-/* The switch - the box around the slider */
-.switch {
-  font-size: 17px;
-  position: relative;
-  display: inline-block;
-  width: 3.5em;
-  height: 2em;
-}
 input[type="text"] {
-  width: 95%; /* Ocupa el 100% del ancho del contenedor */
+  width: 95%; /* Ocupa el 95% del ancho del contenedor */
   padding: 10px; /* Espacio interno alrededor del texto */
   border: 2px solid #ccc; /* Borde gris claro */
   border-radius: 12px; /* Bordes redondeados */
@@ -119,4 +108,30 @@ input[type="text"]:focus {
 input[type="text"]::placeholder {
   color: #aaa; /* Color del texto del placeholder */
   opacity: 1; /* Asegurarse de que el placeholder sea completamente visible */
+}
+
+/* Media Queries para adaptaciones responsivas */
+@media (max-width: 600px) {
+  .square {
+    width: 90%; /* Ocupa el 90% del ancho en pantallas pequeñas */
+    height: auto; /* Ajustar la altura automáticamente */
+  }
+  
+  .titulo {
+    font-size: 2rem; /* Reducir tamaño de fuente en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 400px) {
+  .titulo {
+    font-size: 1.5rem; /* Ajustar aún más el tamaño de fuente para pantallas muy pequeñas */
+  }
+
+  button {
+    padding: 8px 16px; /* Reducir el padding de los botones en pantallas pequeñas */
+  }
+
+  input[type="text"] {
+    font-size: 0.9rem; /* Ajustar el tamaño de fuente del input en pantallas pequeñas */
+  }
 }

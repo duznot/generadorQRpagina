@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/generadorQRpagina/build/static/css/main.74e0c707.css",
+    "main.css": "/generadorQRpagina/build/static/css/main.10c38c74.css",
     "main.js": "/generadorQRpagina/build/static/js/main.c6f85a46.js",
     "static/js/453.00b86f8e.chunk.js": "/generadorQRpagina/build/static/js/453.00b86f8e.chunk.js",
     "index.html": "/generadorQRpagina/build/index.html",
-    "main.74e0c707.css.map": "/generadorQRpagina/build/static/css/main.74e0c707.css.map",
+    "main.10c38c74.css.map": "/generadorQRpagina/build/static/css/main.10c38c74.css.map",
     "main.c6f85a46.js.map": "/generadorQRpagina/build/static/js/main.c6f85a46.js.map",
     "453.00b86f8e.chunk.js.map": "/generadorQRpagina/build/static/js/453.00b86f8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74e0c707.css",
+    "static/css/main.10c38c74.css",
     "static/js/main.c6f85a46.js"
   ]
 }

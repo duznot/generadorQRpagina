@@ -18,7 +18,7 @@ function App() {
     }
   };
 
-  // Función para descargar el QR en alta calidad (1024px)
+  //descargar el QR en alta calidad (1024px)
   const handleDownload = async () => {
     try {
       // Generamos un QR de 1024px usando la librería qrcode

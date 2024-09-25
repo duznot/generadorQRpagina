@@ -113,7 +113,7 @@ input[type="text"]::placeholder {
 /* Media Queries para adaptaciones responsivas */
 @media (max-width: 600px) {
   .square {
-    width: 90%; /* Ocupa el 90% del ancho en pantallas pequeñas */
+    width: 80%; 
     height: auto; /* Ajustar la altura automáticamente */
   }
   

@@ -88,3 +88,13 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+/* From Uiverse.io by Praashoo7 */ 
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}

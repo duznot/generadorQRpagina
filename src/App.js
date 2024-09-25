@@ -42,14 +42,15 @@ function App() {
         <div className="dashed-box">Aquí va el código QR</div>
       )}
     </div>
-    <input
-      type="text"
+    
+  
+  <input type="text"
       id="QR"
       name="qr"
       required
       size="40"
-      placeholder="Ingresa texto para el QR"
-    />
+      placeholder="Ingresa texto para el QR"/>
+
     <div className="button-container">
       <button onClick={handleGenerate}>Generar</button>
       {isGenerated && <button onClick={handleDownload}>Descargar</button>}

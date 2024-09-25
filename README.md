@@ -1,7 +1,7 @@
 # Generador de Códigos QR Gratis
 
 Este proyecto es una aplicación web que te permite generar códigos QR de forma fácil y gratuita.
-
+![Generador de QR](https://raw.githubusercontent.com/duznot/generadorQRpagina/main/generadordeqr.png)
 ## Uso de la Aplicación
 
 1. **Accede a la aplicación**: Visita [Generador de Códigos QR](https://portafolio-leyderl.netlify.app/) en tu navegador.
